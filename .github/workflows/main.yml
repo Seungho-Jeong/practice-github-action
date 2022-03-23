@@ -12,3 +12,5 @@ jobs:
         run: ls -al
       - name: 3. 파이썬 버전 출력
         run: python --version
+      - name: 4. 파이썬 파일 실행
+        run: python test.py
