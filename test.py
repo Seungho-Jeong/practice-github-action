@@ -1,10 +1,10 @@
 import requests
 
-from bs4 import BeutifulSoup
+from bs4 import BeautifulSoup
 
 URL = 'https://ridibooks.com/category/new-releases/2200'
 
-response = requests.get(url)
+response = requests.get(URL)
 response.encoding = 'utf-8'
 html = response.text
 
